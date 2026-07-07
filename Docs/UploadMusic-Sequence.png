@@ -1,0 +1,17 @@
+User
+   |
+   | Upload Song
+   ▼
+Express Router
+   |
+   ▼
+Auth Middleware
+   |
+   ▼
+Multer Upload
+   |
+   ▼
+Music Controller
+   |
+   ▼
+MongoDB

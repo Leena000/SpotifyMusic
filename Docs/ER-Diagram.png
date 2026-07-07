@@ -1,0 +1,33 @@
+                USER
++--------------------------------+
+| _id                            |
+| username                       |
+| email                          |
+| password                       |
+| role                           |
++--------------------------------+
+             |
+             | 1 Artist uploads many songs
+             |
+             ▼
+                MUSIC
++--------------------------------+
+| _id                            |
+| title                          |
+| artist (User ID)               |
+| album (Album ID)               |
+| audio                          |
+| image                          |
++--------------------------------+
+             |
+             | Many songs belong to one album
+             |
+             ▼
+                ALBUM
++--------------------------------+
+| _id                            |
+| title                          |
+| artist (User ID)               |
+| image                          |
+| songs[] (Music IDs)            |
++--------------------------------+
